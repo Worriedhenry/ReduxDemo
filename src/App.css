@@ -1,6 +1,25 @@
 .App {
   text-align: center;
-  background-color: #1111;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+    /* padding-top: 150px; */
+  overflow:hidden;
+
 }
 
+.HomeButton {
+  height: 37px;
+  width: 110px;
+  background: green;
+  color: beige;
+  cursor: pointer;
+}
 
+.SuccessButton {
+  height: 37px;
+  width: 110px;
+  background: red;
+  color: beige;
+  cursor: pointer;
+}

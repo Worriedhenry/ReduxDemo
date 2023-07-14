@@ -9,9 +9,12 @@ export default function Success(params) {
     const Name=useSelector((state)=>state.rootReducer.ChangeName)
     const Age=useSelector((state)=>state.rootReducer.ChangeAge)
     return (<div className="App">
+        <div>
+            <img src='DoneImage.jpeg' />
+        </div>
         <h1 style={{color:"green"}}>Success!!</h1>
-        <h3 > {Name} you are {Age} year old!! </h3>
-        <button onClick={()=>navigate("/")}>Test Again</button>
+        <h3 > Hey {Name} you are {Age} year old!! </h3>
+        <button className="SuccessButton" onClick={()=>navigate("/")}>Test Again</button>
         </div>
     )
 }

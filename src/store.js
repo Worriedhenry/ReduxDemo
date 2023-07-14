@@ -1,6 +1,8 @@
 import {configureStore} from "@reduxjs/toolkit"
-import { ChangeName } from "./Reducers/NameChange"
+import thunk from 'redux-thunk';
 import rootReducer from "./Reducers"
+
 export const store =configureStore({
-    reducer:{rootReducer}
+    reducer:{rootReducer},
+    middleware: [thunk],
 })

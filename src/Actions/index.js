@@ -1,12 +1,12 @@
-export const ChangeName=(name)=>{
+export const ChangeName = (name) => {
     return {
-        type:"CHANGENAME",
-        payload:name,
+        type: "CHANGENAME",
+        payload: name,
     }
 }
-export const ChangeAge=(name)=>{
+export const ChangeAge = (name) => {
     return {
-        type:"CHANGEAGE",
-        payload:name,
+        type: "CHANGEAGE",
+        payload: name,
     }
 }
