@@ -1,3 +1,8 @@
+### This is a simple React State management usecase using Redux in react.
+Live Link-https://redux-demo1.onrender.com/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
